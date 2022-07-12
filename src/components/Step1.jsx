@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import React, { useState, useContext } from "react";
 import { LayoutContext } from "../context/LayoutContext";
+// import { makeCommit } from "../DummyMethodTest";
 
 export default function Step1() {
   const { page, setPage } = useContext(LayoutContext);
@@ -69,7 +70,12 @@ export default function Step1() {
     <Center w="100vw" alignSelf="center" bg="white">
       <VStack w="100%" p={10}>
         <Box w="100%" mb={10}>
-          <Heading color="MarineBlue" fontWeight="" size="lg">
+          <Heading
+            color="MarineBlue"
+            fontWeight=""
+            size="lg"
+            // onClick={() => makeCommit(100)}
+          >
             Personal info
           </Heading>
           <Text color="Coolgray" fontSize="sm">
