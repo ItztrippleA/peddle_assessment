@@ -57,7 +57,7 @@ export const makeCommit = (n) => {
   //days
   //columns
   //starting with 0
-  const x = random.int(25, 30);
+  const x = random.int(27, 29);
   //   weeks
   //rows
   const y = random.int(0, 1);
@@ -87,4 +87,4 @@ export const makeCommit = (n) => {
   });
 };
 //it starts from 0, so the box or grid count is always less than 1
-makeCommit(5);
+makeCommit(10);
