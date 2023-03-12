@@ -1,24 +1,18 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { LayoutContext } from "../context/LayoutContext";
 import { Box, VStack, Stack, Text, Flex, Heading } from "@chakra-ui/react";
 export default function Navbar() {
-  const { step, page, setPage } = useContext(LayoutContext);
+  const { step, page } = useContext(LayoutContext);
   return (
     <Stack
       direction={{ base: "row", lg: "column" }}
       gap={{ base: "auto", lg: "1.5rem" }}
       width={{ base: "100vw", lg: "100%" }}
-      // align="center"
       justify="center"
     >
       {step &&
         step.map((item) => (
-          <Box
-            // width={{ base: "100px", lg: "100%" }}
-            h="2.1rem"
-            key={item.id}
-            justify="center"
-          >
+          <Box h="2.1rem" key={item.id} justify="center">
             <Flex gap={4} align="center" justify="center">
               <Flex
                 w="40px"

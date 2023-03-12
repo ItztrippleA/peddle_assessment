@@ -2,35 +2,25 @@ import {
   Box,
   Heading,
   Text,
-  HStack,
   VStack,
   Center,
   Grid,
   GridItem,
-  Button,
   Flex,
   Stack,
   Avatar,
   Switch,
 } from "@chakra-ui/react";
-import { PhoneIcon, AddIcon, WarningIcon } from "@chakra-ui/icons";
+
 import React, { useState, useContext } from "react";
 import { LayoutContext } from "../context/LayoutContext";
-// import { Field, Form, Formik } from "formik";
-// import { useNavigate } from "react-router-dom";
+
 import { plans } from "../constants/constants";
 import Footer from "./Footer";
 export default function Step2() {
-  // const navigate = useNavigate();
-  const {
-    step,
-    setStep,
-    planSelection,
-    setPlanSelection,
-    planRate,
-    setPlanRate,
-  } = useContext(LayoutContext);
-  const [period, setPeriod] = useState(false);
+  const { planSelection, setPlanSelection, planRate, setPlanRate } =
+    useContext(LayoutContext);
+
   return (
     <Center w="100vw" alignSelf="center">
       <VStack w="100%" p={10} gap={5}>
@@ -114,8 +104,6 @@ export default function Step2() {
           <Switch
             size="md"
             onChange={(e) => {
-              // console.log(e.target.checked);
-
               setPlanRate(e.target.checked);
             }}
           />

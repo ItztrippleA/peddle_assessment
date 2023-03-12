@@ -1,14 +1,8 @@
 import React from "react";
 import { Center, GridItem, Grid } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Step1 from "../components/Step1";
-import Step2 from "../components/Step2";
-import Step3 from "../components/Step3";
-import Step4 from "../components/Step4";
-import Confirmation from "../components/Confirmation";
+
 import LayoutState from "./LayoutState";
-import Footer from "../components/Footer";
 
 function MainLayout() {
   return (

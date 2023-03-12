@@ -2,11 +2,8 @@ import {
   Box,
   Heading,
   Text,
-  HStack,
   VStack,
   Center,
-  Grid,
-  useToast,
   FormControl,
   FormLabel,
   Input,
@@ -17,12 +14,10 @@ import {
 import React, { useState, useContext } from "react";
 import { LayoutContext } from "../context/LayoutContext";
 
-import Footer from "./Footer";
 export default function Step1() {
-  // const toast = useToast();
-  const { step, page, setPage } = useContext(LayoutContext);
-  const [input, setInput] = useState("");
-  const handleInputChange = (e) => setInput(e.target.value);
+  const { page, setPage } = useContext(LayoutContext);
+  const [setInput] = useState("");
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pNumber, setPNumber] = useState("");

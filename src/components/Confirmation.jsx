@@ -1,15 +1,10 @@
 import {
-  Box,
   Heading,
   Text,
-  HStack,
   VStack,
-  Divider,
   Avatar,
-  Center,
   Grid,
   GridItem,
-  Flex,
 } from "@chakra-ui/react";
 export default function Confirmation() {
   return (

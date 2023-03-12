@@ -17,21 +17,18 @@ import Confirmation from "./Confirmation";
 // import { useNavigate } from "react-router-dom";
 
 export default function Step4() {
-  // const navigate = useNavigate();
   const {
-    step,
     addonSelection,
-    setAddonSelection,
-    setStep,
+
     planSelection,
-    setPlanSelection,
+
     setPage,
-    page,
+
     planRate,
   } = useContext(LayoutContext);
-  const [period, setPeriod] = useState(false);
+
   const [confirm, setConfirm] = useState(false);
-  console.log("test", addonSelection);
+
   return (
     <>
       {!confirm ? (

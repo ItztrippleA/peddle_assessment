@@ -1,10 +1,9 @@
 import { Flex, Button } from "@chakra-ui/react";
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { LayoutContext } from "../context/LayoutContext";
-// import { useNavigate } from "react-router-dom";
+
 export default function Footer() {
-  const { step, page, setPage } = useContext(LayoutContext);
-  // const navigate = useNavigate();
+  const { page, setPage } = useContext(LayoutContext);
 
   return (
     <Flex w={{ base: "100%", lg: "100%" }} justify="space-between">

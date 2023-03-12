@@ -1,6 +1,3 @@
-import { useState } from "react";
-import Contact from "./Contact";
-
 import MainLayout from "./Layout/MainLayout.jsx";
 
 function App() {

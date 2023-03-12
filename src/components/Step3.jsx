@@ -1,22 +1,11 @@
-import {
-  Box,
-  Heading,
-  Text,
-  HStack,
-  VStack,
-  Button,
-  Flex,
-  Checkbox,
-  CheckboxGroup,
-} from "@chakra-ui/react";
+import { Box, Heading, Text, HStack, VStack, Checkbox } from "@chakra-ui/react";
 
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { LayoutContext } from "../context/LayoutContext";
 
-import { plans, addOns } from "../constants/constants";
+import { addOns } from "../constants/constants";
 import Footer from "./Footer";
 export default function Step3() {
-  // const navigate = useNavigate();
   const { addonList, addonSelection, setAddonSelection, planRate } =
     useContext(LayoutContext);
 
