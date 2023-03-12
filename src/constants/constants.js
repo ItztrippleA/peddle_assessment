@@ -11,7 +11,7 @@ export const plans = [
     rateYr: 90,
     rateMn: 9,
     discount: "2 months free",
-    img: "/src/assets/images/icon-arcade.svg",
+    img: "/src/assets/images/icon-arcade.png",
   },
   {
     id: "2",
@@ -19,7 +19,7 @@ export const plans = [
     rateYr: 120,
     rateMn: 12,
     discount: "2 months free",
-    img: "/src/assets/images/icon-advanced.svg",
+    img: "/src/assets/images/icon-advanced.png",
   },
   {
     id: "3",
@@ -28,7 +28,7 @@ export const plans = [
     rateYr: 150,
     rateMn: 15,
     discount: "2 months free",
-    img: "/src/assets/images/icon-pro.svg",
+    img: "/src/assets/images/icon-pro.png",
   },
 ];
 export const addOns = [

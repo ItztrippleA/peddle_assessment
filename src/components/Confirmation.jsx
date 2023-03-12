@@ -22,7 +22,7 @@ export default function Confirmation() {
     >
       <GridItem colSpan={{ base: 3, lg: 3, xl: 3 }} h="100%" justify="stretch">
         <VStack p={3} gap={1.5} w="100%" h="100%" justify="center">
-          <Avatar src="/src/assets/images/icon-thank-you.svg" size="lg" />
+          <Avatar src="/src/assets/images/icon-thank-you.png" size="lg" />
           <Heading color="PurplishBlue" fontWeight="bold" size="lg">
             Thank You
           </Heading>

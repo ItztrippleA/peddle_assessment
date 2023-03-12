@@ -41,8 +41,8 @@ function MainLayout() {
             colSpan={{ base: 3, lg: 1, xl: 1 }}
             h={{ base: "10.75rem", lg: "35.5rem" }}
             backgroundImage={{
-              base: "url('/src/assets/images/bg-sidebar-mobile.svg')",
-              lg: "url('/src/assets/images/bg-sidebar-desktop.svg')",
+              base: "url('/src/assets/images/bg-sidebar-mobile.png')",
+              lg: "url('/src/assets/images/bg-sidebar-desktop.png')",
             }}
             bgSize="cover"
             p={10}
