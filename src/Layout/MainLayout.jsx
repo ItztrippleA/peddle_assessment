@@ -14,7 +14,6 @@ function MainLayout() {
       justifyItems="center"
     >
       <GridItem
-        // minChildWidth="500px"
         position="relative"
         bg="white"
         h={{ base: "100vh", lg: "100%" }}
@@ -35,8 +34,8 @@ function MainLayout() {
             colSpan={{ base: 3, lg: 1, xl: 1 }}
             h={{ base: "10.75rem", lg: "35.5rem" }}
             backgroundImage={{
-              base: "url('/src/assets/images/bg-sidebar-mobile.png')",
-              lg: "url('/src/assets/images/bg-sidebar-desktop.png')",
+              base: "url('/src/assets/images/bg-sidebar-mobile.svg')",
+              lg: "url('/src/assets/images/bg-sidebar-desktop.svg')",
             }}
             bgSize="cover"
             p={10}
