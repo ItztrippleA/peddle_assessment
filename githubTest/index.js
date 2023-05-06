@@ -16,7 +16,7 @@ const SOURCE_FILE_PATH7 = "../yarn.lock";
 
 // static method
 
-const DATE = moment().subtract(1, "d").format();
+const DATE = moment().subtract(2, "d").format();
 const data = {
   date: DATE,
 };
