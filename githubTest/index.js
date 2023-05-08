@@ -16,14 +16,14 @@ const SOURCE_FILE_PATH7 = "../yarn.lock";
 
 // static method
 
-const DATE = moment().subtract(4, "d").format();
+const DATE = moment().format();
 const data = {
   date: DATE,
 };
 jsonfile.writeFile(FILE_PATH, data, () => {
   simpleGit()
     .add([
-      FILE_PATH,
+      // FILE_PATH,
       SOURCE_FILE_PATH,
       SOURCE_FILE_PATH2,
       SOURCE_FILE_PATH3,

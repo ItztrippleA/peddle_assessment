@@ -91,7 +91,7 @@ export default function Step1() {
             <Input
               type="text"
               name="name"
-              placeholder="e.g. Stephen King"
+              placeholder="e.g. Stephen Kingg"
               onChange={(e) => onNameChange(e.target.value)}
             />
           </FormControl>
